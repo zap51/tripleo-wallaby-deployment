@@ -1,0 +1,139 @@
+{
+    "nodes": [
+        {
+            "name": "ctr01",
+            "pm_type": "ipmi",
+            "ports": [
+                {
+                    "address": "52:54:00:1f:40:b0",
+                    "physical_network": "ctlplane"
+                }
+            ],
+            "pm_user": "user",
+            "pm_password": "pass",
+            "pm_addr": "172.16.1.1",
+            "pm_port": "23001"
+        },
+        {
+            "name": "ctr02",
+            "pm_type": "ipmi",
+            "ports": [
+                {
+                    "address": "52:54:00:32:f0:9d",
+                    "physical_network": "ctlplane"
+                }
+            ],
+            "pm_user": "user",
+            "pm_password": "pass",
+            "pm_addr": "172.16.1.1",
+            "pm_port": "23002"
+
+        },
+        {
+            "name": "ctr03",
+            "pm_type": "ipmi",
+            "ports": [
+                {
+                    "address": "52:54:00:44:06:00",
+                    "physical_network": "ctlplane"
+
+                }
+            ],
+            "pm_user": "user",
+            "pm_password": "pass",
+            "pm_addr": "172.16.1.1",
+            "pm_port": "23003"
+
+        },
+        {
+            "name": "comp01",
+            "pm_type": "ipmi",
+            "ports": [
+                {
+                    "address": "52:54:00:a1:9d:12",
+                    "physical_network": "ctlplane"
+                }
+            ],
+            "pm_user": "user",
+            "pm_password": "pass",
+            "pm_addr": "172.16.1.1",
+            "pm_port": "23004"
+
+        },
+        {
+            "name": "comp02",
+            "pm_type": "ipmi",
+            "ports": [
+                {
+                    "address": "52:54:00:a4:0c:9f",
+                    "physical_network": "ctlplane"
+                }
+            ],
+            "pm_user": "user",
+            "pm_password": "pass",
+            "pm_addr": "172.16.1.1",
+            "pm_port": "23005"
+
+        },
+        {
+            "name": "comp03",
+            "pm_type": "ipmi",
+            "ports": [
+                {
+                    "address": "52:54:00:cb:11:0a",
+                    "physical_network": "ctlplane"
+                }
+            ],
+            "pm_user": "user",
+            "pm_password": "pass",
+            "pm_addr": "172.16.1.1",
+            "pm_port": "23006"
+
+        },
+        {
+            "name": "ceph01",
+            "pm_type": "ipmi",
+            "ports": [
+                {
+                    "address": "52:54:00:5d:31:0d",
+                    "physical_network": "ctlplane"
+                }
+            ],
+            "pm_user": "user",
+            "pm_password": "pass",
+            "pm_addr": "172.16.1.1",
+            "pm_port": "23007"
+
+        },
+        {
+            "name": "ceph02",
+            "pm_type": "ipmi",
+            "ports": [
+                {
+                    "address": "52:54:00:16:38:e8",
+                    "physical_network": "ctlplane"
+                }
+            ],
+            "pm_user": "user",
+            "pm_password": "pass",
+            "pm_addr": "172.16.1.1",
+            "pm_port": "23008"
+
+        },
+        {
+            "name": "ceph03",
+            "pm_type": "ipmi",
+            "ports": [
+                {
+                    "address": "52:54:00:4f:c5:1d",
+                    "physical_network": "ctlplane"
+                }
+            ],
+            "pm_user": "user",
+            "pm_password": "pass",
+            "pm_addr": "172.16.1.1",
+            "pm_port": "23009"
+
+        }
+    ]
+}
